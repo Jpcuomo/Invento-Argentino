@@ -8,7 +8,7 @@ namespace Ejercicio_I04
         {
             string dibujo;
 
-            Boligrafo boliAzul = new Boligrafo(90, ConsoleColor.Blue);
+            Boligrafo boliAzul = new Boligrafo(60, ConsoleColor.Blue);
             Boligrafo boliRojo = new Boligrafo(50, ConsoleColor.Red);
 
             Console.ForegroundColor = boliAzul.Color;
